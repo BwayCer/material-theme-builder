@@ -1619,9 +1619,9 @@ mustache.clearCache=function(){return defaultWriter.clearCache()};mustache.parse
 <clipPath id="clip3">
 <rect x="20.2344" y="523.269" width="314.395" height="163.816" rx="23.1659" fill="var(--md-sys-color-background)"/>
 </clipPath>
-<image id="image0" width="598" height="400" xlink:href="https://material-foundation.github.io/material-theme-builder/assets/plant_1.png"/>
-<image id="image1" width="1200" height="803" xlink:href="https://material-foundation.github.io/material-theme-builder/assets/plant_2.png"/>
-<image id="image2" width="600" height="400" xlink:href="https://material-foundation.github.io/material-theme-builder/assets/plant_3.png"/>
+<image id="image0" width="598" height="400" xlink:href="./assets/plant_1.png"/>
+<image id="image1" width="1200" height="803" xlink:href="./assets/plant_2.png"/>
+<image id="image2" width="600" height="400" xlink:href="./assets/plant_3.png"/>
 </defs>
 </svg>
 `;var module$exports$google3$ux$material$theme_builder$assets$svgs$shuffle$2dbutton$shuffleSeedButton=module$exports$google3$third_party$javascript$lit$packages$lit$2dhtml$src$lit$2dhtml$svg`<svg width="249" height="49" viewBox="0 0 249 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2605,7 +2605,7 @@ function module$contents$google3$ux$material$theme_builder$web$components$add$2d
           >Visualize dynamic color, build a custom theme, and export to code.
         </span>
         <img
-          src="https://material-foundation.github.io/material-theme-builder/assets/info_image.png"
+          src="./assets/info_image.png"
         />
         <span class="headline2 color">Migrate to Material Design 3</span>
         <span class="subtitle1 description"
@@ -3054,7 +3054,7 @@ var JSCompiler_StaticMethods_selectImage=async function(JSCompiler_StaticMethods
   `;module$exports$google3$third_party$javascript$tslib$tslib$__decorate([module$contents$google3$third_party$javascript$lit$packages$reactive$2delement$src$decorators$property_property({type:Array}),module$exports$google3$third_party$javascript$tslib$tslib$__metadata("design:type",Array)],module$exports$google3$ux$material$theme_builder$web$components$wallpaper$2dselector$WallpaperSelector.prototype,"images",void 0);
 module$exports$google3$third_party$javascript$tslib$tslib$__decorate([module$contents$google3$third_party$javascript$lit$packages$reactive$2delement$src$decorators$property_property({type:Object,hasChanged:()=>!0}),module$exports$google3$third_party$javascript$tslib$tslib$__metadata("design:type",Object)],module$exports$google3$ux$material$theme_builder$web$components$wallpaper$2dselector$WallpaperSelector.prototype,"theme",void 0);
 module$exports$google3$ux$material$theme_builder$web$components$wallpaper$2dselector$WallpaperSelector=module$exports$google3$third_party$javascript$tslib$tslib$__decorate([module$exports$google3$third_party$javascript$lit$packages$reactive$2delement$src$decorators$custom$2delement$customElement("wallpaper-selector")],module$exports$google3$ux$material$theme_builder$web$components$wallpaper$2dselector$WallpaperSelector);
-function module$contents$google3$ux$material$theme_builder$web$components$wallpaper$2dselector_img(name,description){return{thumbnail:`${"https://material-foundation.github.io/material-theme-builder"}/assets/${name}_thumb.webp`,wallpaper:`${"https://material-foundation.github.io/material-theme-builder"}/assets/${name}_wallpaper.webp`,description}};var module$exports$google3$ux$material$theme_builder$web$pages$custom$CustomBase=class extends module$exports$google3$third_party$javascript$lit$packages$lit$2delement$src$lit$2delement$LitElement{constructor(){super(...arguments);this.is3p=!1;this.isEmbed=location.hash.includes("embed")}render(){return module$exports$google3$third_party$javascript$lit$packages$lit$2dhtml$src$lit$2dhtml$html`<main>
+function module$contents$google3$ux$material$theme_builder$web$components$wallpaper$2dselector_img(name,description){return{thumbnail:`./assets/${name}_thumb.webp`,wallpaper:`./assets/${name}_wallpaper.webp`,description}};var module$exports$google3$ux$material$theme_builder$web$pages$custom$CustomBase=class extends module$exports$google3$third_party$javascript$lit$packages$lit$2delement$src$lit$2delement$LitElement{constructor(){super(...arguments);this.is3p=!1;this.isEmbed=location.hash.includes("embed")}render(){return module$exports$google3$third_party$javascript$lit$packages$lit$2dhtml$src$lit$2dhtml$html`<main>
       <section class="options" ?embed=${this.isEmbed}>
         <article>
         <div class="colors">
