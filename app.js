@@ -1856,6 +1856,9 @@ this.color)}};module$exports$google3$ux$material$theme_builder$components$color$
       border: none;
       border-radius: 50%;
     }
+    input[type="color"][disabled] {
+      pointer-events:none;
+    }
     input[type="color"]::-webkit-color-swatch-wrapper {
       padding: 0;
     }
@@ -2950,7 +2953,7 @@ module$exports$google3$ux$material$theme_builder$web$components$split$2dcolor$Sp
     }
     .color-copy {
       position: absolute;
-      top: 12px;
+      /* top: 12px; */
       right: 12px;
       display: none;
     }
@@ -3402,6 +3405,9 @@ $jscomp$optchain$tmpm884531964$0.hash)?0:$jscomp$optchain$tmpm884531964$1.includ
               >${module$exports$google3$ux$material$theme_builder$assets$svgs$material$2dlogo$materialLogo}</mwc-icon-button>
             
               <span class="title">Material Theme Builder</span>
+              <span class="sub-title">
+                (2022 old version, <a href="http://material-foundation.github.io/material-theme-builder">Go to newer version</a>)
+              </span>
             </div>
             <nav class="center section spacer">
               <tab-button
@@ -3516,6 +3522,13 @@ module$exports$google3$ux$material$theme_builder$web$pages$root$RootPage.styles=
       margin-left: 1rem;
       display: none;
     }
+    .sub-title {
+      white-space: nowrap;
+      font-weight: 300;
+      font-size: 14px;
+      margin-left: 0.4rem;
+      display: none;
+    }
     .logo {
       display: none;
     }
@@ -3554,6 +3567,11 @@ module$exports$google3$ux$material$theme_builder$web$pages$root$RootPage.styles=
       /* main {
         overflow: hidden;
       } */
+    }
+    @media only screen and (min-width: 1080px) {
+      .sub-title {
+        display: block;
+      }
     }
   `;module$exports$google3$third_party$javascript$tslib$tslib$__decorate([module$contents$google3$third_party$javascript$lit$packages$reactive$2delement$src$decorators$property_property({type:Boolean}),module$exports$google3$third_party$javascript$tslib$tslib$__metadata("design:type",Boolean)],module$exports$google3$ux$material$theme_builder$web$pages$root$RootPage.prototype,"darkMode",void 0);
 module$exports$google3$third_party$javascript$tslib$tslib$__decorate([module$contents$google3$third_party$javascript$lit$packages$reactive$2delement$src$decorators$property_property({type:Boolean}),module$exports$google3$third_party$javascript$tslib$tslib$__metadata("design:type",Boolean)],module$exports$google3$ux$material$theme_builder$web$pages$root$RootPage.prototype,"showInfoDialog",void 0);
